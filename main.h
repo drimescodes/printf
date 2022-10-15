@@ -133,3 +133,9 @@ typedef struct specifier
 	int (*f)(va_list, params_t *);
 
 } specifier_t;
+
+/* _prinf.c module */
+int _printf(const char *format, ...);
+
+#endif /*_MAIN_H_*/
+
